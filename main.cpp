@@ -224,7 +224,7 @@ mark1:
 		if(oper[0]=='-')
 			result=z[0]-z[1];
 	}
-	y[c]= {'!'};
+	y[c]= '!';
 	if(strlen(y)>2)
 	goto mark1;
 
